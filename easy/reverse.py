@@ -49,6 +49,7 @@ def reverse1(x):
         return 0
 
 
+
 # python 切片算法
 def reverse2(x):
     x = str(x)  #转换成字符串
@@ -62,3 +63,4 @@ def reverse2(x):
         return new_x
     else:
         return 0
+
