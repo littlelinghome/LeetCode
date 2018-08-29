@@ -103,11 +103,11 @@ zip 方法在 Python 2 和 Python 3 中的不同：在 Python 3.x 中为了减�
 
 
 
-def longestcommonprefix(strs):
+def longestcommonprefix(strs): #参数为多个列表组成的列表，即参数是一个列表
     if strs is None or len(strs) == 0:
         return ''
     for i in range(len(strs)):
-        strs[i] = list(strs[i])
+        strs[i] = list(strs[i])  #把大列表中的每一个字符串转变为小列表，最终变成：大列表嵌套小列表的形式
     tmp = zip(*strs)
     res = ''
     for i in tmp:
