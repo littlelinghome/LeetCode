@@ -26,7 +26,10 @@
 
 #已排序列表，将nums[i]与之后的数据进行比较删除，遍历完成后，再将num[i+1]与之后的数据进行比较
 
-nums = [0,0,1,1,1,2,2,3,3,4]
+nums = [0,0,0,0,0,0,0,1,1,1,2,2,3,3,5]
+print(nums[7:])
+
+
 
 def removeduplicates(nums):
     for i in range(len(nums)):
@@ -38,4 +41,11 @@ def removeduplicates(nums):
     return nums
 
 print(removeduplicates(nums))
+
+
+
+"""
+for 循环 不能修改迭代变量
+如果想要修改循环变量的取值，可以换while循环
+"""
 
