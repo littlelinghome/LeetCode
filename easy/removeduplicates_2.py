@@ -9,7 +9,6 @@
 
 # 已排序列表，直接此次循环结束，然后将num[i+1]之后的数据进行比较
 
-
 nums = [0,0,1,1,1,2,2,3,3,4]
 
 def removeduplicates(nums):
