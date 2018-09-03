@@ -22,3 +22,5 @@ def removeduplicates(nums):
     return nums
 
 print(removeduplicates(nums))
+
+
