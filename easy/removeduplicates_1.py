@@ -48,4 +48,3 @@ print(removeduplicates(nums))
 for 循环 不能修改迭代变量
 如果想要修改循环变量的取值，可以换while循环
 """
-
